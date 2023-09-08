@@ -19,15 +19,17 @@ public class arvauspeli {
 		{
 			System.out.println("Onnea!");
 			correctGuess = true;
+		{
+			System.out.println("yrityksiä: " + attemps);
+		}
+		
+		}
+		else if (guess.equalsIgnoreCase("loppu"))
+		{
+			break;
+		}
 		}
 			
-			
-		}
-		
- 
-		
-		
-		
 	}
 
 }
