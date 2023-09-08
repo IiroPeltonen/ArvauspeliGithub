@@ -9,6 +9,21 @@ public class arvauspeli {
 		int attemps = 0;
 		boolean correctGuess = false;
 		
+		while (!correctGuess) 
+		{
+			System.out.println("Arvaa nimi (loppu = exit)");
+			guess = in.nextLine();
+			attemps++;
+			
+		if (guess.equalsIgnoreCase(name))
+		{
+			System.out.println("Onnea!");
+			correctGuess = true;
+		}
+			
+			
+		}
+		
  
 		
 		
